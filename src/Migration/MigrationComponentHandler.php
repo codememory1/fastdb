@@ -54,7 +54,7 @@ class MigrationComponentHandler
      * @param  mixed $dbname
      * @return void
      */
-    public function connect()
+    public function connect($server = null, $dbname = null, $username = null)
     {
 
         $serverConnect = new ServerConnections();
