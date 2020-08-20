@@ -78,8 +78,6 @@ class TableCreation
         $result = curl_exec($request);
         curl_close($request);
 
-        echo $result;
-
     }
     
 }
