@@ -98,6 +98,10 @@ class ServerConnections
             'server='.$open->getData('autification.server').'&'.
             'username='.$open->getData('autification.login');
 
+        $this->username = $open->getData('autification.login');
+        $this->dbname = $open->getData('autification.dbname');
+        $this->server = $open->getData('autification.server');
+
         $this->generateServer = $generate;
 
     }
